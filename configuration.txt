@@ -1,0 +1,23 @@
+[data paths]
+data_dir = D:/Dane obrazowe/DendroDataset/
+train_patches = train_patches_fold_1.hdf
+train_labels = train_labels_fold_1.hdf
+test_patches = test_patches_fold_1.hdf
+test_labels = test_labels_fold_1.hdf
+
+[general settings]
+total_folds_no = 4
+
+[data attributes]
+num_classes = 14
+patch_size = 64
+patches_per_species = 1500
+
+[training settings]
+num_epochs = 1000
+batch_size = 1000
+
+[testing settings]
+test_fold_id = 1
+stride_height = 1
+stride_width = 1
