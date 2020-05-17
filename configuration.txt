@@ -1,9 +1,15 @@
 [data paths]
 data_dir = D:/Dane obrazowe/DendroDataset/
-train_patches = train_patches_fold_1.hdf
-train_labels = train_labels_fold_1.hdf
-test_patches = test_patches_fold_1.hdf
-test_labels = test_labels_fold_1.hdf
+preds_dir = D:/Dane obrazowe/DendroDataset/preds_fold4
+test_dir = D:/Dane obrazowe/DendroDataset/fold_4
+train_patches = train_patches_fold_4.hdf
+train_labels = train_labels_fold_4.hdf
+test_patches = test_patches_fold_4.hdf
+test_labels = test_labels_fold_4.hdf
+best_weights = best_weights_fold_4.h5
+history_saved = history_folld4.p
+conf_mat_patches_saved = conf_mat_patches_fold4.p
+conf_mat_images_saved = conf_mat_images_fold4.p
 
 [general settings]
 total_folds_no = 4
@@ -14,10 +20,11 @@ patch_size = 64
 patches_per_species = 1500
 
 [training settings]
-num_epochs = 1000
+num_epochs = 500
 batch_size = 1000
+augment = True
 
 [testing settings]
-test_fold_id = 1
+test_fold_id = 4
 stride_height = 1
 stride_width = 1
