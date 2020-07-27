@@ -34,7 +34,7 @@ Python 3.6, Tensorflow, Keras, Anaconda3
 <ul>
   <li> <b>configuration.txt</b><br> -- file to be edited; <br> -- contains data paths and train/test setings;   
   <li> <b>GetFolds.py</b><br> -- script for dividing dataset into a number of folds given in the configuration code; <br> -- to be run 1st; <br> -- expects that image dataset is stored in a directory with subdirectory for each species<br> -- generates (number of folds) directories, each containing wood core images selected to a given fold; <br> -- copies subdirectory structure from the directory containing original dataset;  
-  <li> <b>DGenerateData2.py</b><br> -- script for preparing train data; <br> -- to be run 2nd; <br> -- samples a number of patches from train folds (test fold is given in the config file, remaining ones are considered train folds); <br> -- saves sampled train patches as hdf5 file (defined in config file) 
+  <li> <b>GenerateData2.py</b><br> -- script for preparing train data; <br> -- to be run 2nd; <br> -- samples a number of patches from train folds (test fold is given in the config file, remaining ones are considered train folds); <br> -- saves sampled train patches as hdf5 file (defined in config file) 
   <li> <b>TrainNetwork.py</b><br> -- script for training the model with the train patches and the corresponding labels; <br> -- to be run 3rd; <br> -- contains model definition;
   <li> <b>PredictEvaluate.py</b><br> -- script for testing the model at the patch level; <br> -- to be run 4th;
   <li> <b>PredictEvaluate2.py</b><br> -- script for testing the model at the core level; <br> -- to be run 5th;
