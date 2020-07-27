@@ -38,7 +38,7 @@ Python 3.6, Tensorflow, Keras, Anaconda3
   <li> <b>TrainNetwork.py</b><br> -- script for training the model with the train patches and the corresponding labels; <br> -- to be run 3rd; <br> -- contains model definition;
   <li> <b>PredictEvaluate.py</b><br> -- script for testing the model at the patch level; <br> -- to be run 4th;
   <li> <b>PredictEvaluate2.py</b><br> -- script for testing the model at the core level; <br> -- to be run 5th;
-  <li> <bhelpers.py</b><br> -- some helper functions;
+  <li> <b>helpers.py</b><br> -- some helper functions;
 </ul>
 
 # Contact
