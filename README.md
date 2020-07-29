@@ -18,7 +18,7 @@ To download dataset of wood core images please follow: http://an-fab.kis.p.lodz.
     Grab pospolity / Carpinus betulus L. / European hornbeam
     Klon jawor / Acer pseudoplatanus L. / Sycamore maple
     Jesion wyniosły / Fraxinus excelsior L. / English ash
-    Jodla / Abies alba 
+    Jodla / Abies alba / European silver fir
     Lipa / Tilia sp. / Lime
     Modrzew europejski / Larix decidua L. / European larch
     Olsza / Alnus sp. / Alder
