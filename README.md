@@ -24,7 +24,7 @@ To download dataset of wood core images please follow: http://an-fab.kis.p.lodz.
     Olsza / Alnus sp. / Alder
     Sosna zwyczajna / Pinus sylvestris L. / Scots pine
     Swierk / Picea abies
-    Wiąz / Salix sp. / Willow 
+    Wiąz / Ulmus sp. / Elm 
     Wierzba / Salix sp. / Willow
     
 # Running the code
