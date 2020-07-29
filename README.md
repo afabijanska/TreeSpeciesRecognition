@@ -19,7 +19,7 @@ To download dataset of wood core images please follow: http://an-fab.kis.p.lodz.
     Klon jawor / Acer pseudoplatanus L. / Sycamore maple
     Jesion wyniosły / Fraxinus excelsior L. / English ash
     Jodla / Abies alba / European silver fir
-    Lipa / Tilia sp. / Lime
+    Lipa / Tilia sp. / Linden
     Modrzew europejski / Larix decidua L. / European larch
     Olsza / Alnus sp. / Alder
     Sosna zwyczajna / Pinus sylvestris L. / Scots pine
