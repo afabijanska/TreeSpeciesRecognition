@@ -23,7 +23,7 @@ To download dataset of wood core images please follow: http://an-fab.kis.p.lodz.
     Modrzew europejski / Larix decidua L. / European larch
     Olsza / Alnus sp. / Alder
     Sosna zwyczajna / Pinus sylvestris L. / Scots pine
-    Swierk / Picea abies
+    Swierk / Picea abies / Norway spruce
     Wiąz / Ulmus sp. / Elm 
     Wierzba / Salix sp. / Willow
     
