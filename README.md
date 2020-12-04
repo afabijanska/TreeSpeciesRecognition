@@ -8,7 +8,7 @@ This crepository contains source code of a convolutional neural network for wood
     <li> Fabijańska A., Danek M., Barniak J.: <i>Wood species automatic identification from wood core images with a residual convolutional neural network</i>, Computers and Electronics in Agriculture, accepted in 2020 </ul>
 
 <pre><code>@article{Fabijanska2021,<br>
-  author  = {Anna Fabija\'{n}ska}, <br>
+  author  = {Anna Fabija\'{n}ska and Ma\lgorzata Danek and Joanna Barniak}, <br>
   title   = {Wood species automatic identification from wood core images with a residual convolutional neural network},<br>
   journal = {Computers and Electronics in Agriculture},<br>
   volume  = {},<br>
