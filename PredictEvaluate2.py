@@ -7,10 +7,12 @@ Created on Sun Mar 10 20:14:47 2019
 
 import os
 import pickle
+
+import time
+
 import numpy as np
 import configparser
 from skimage import io
-from skimage.transform import rotate
 
 from keras.models import model_from_json
 from helpers import plot_confusion_matrix, imagePreprocessing
@@ -74,6 +76,8 @@ def predictImage(img, patchSize,numClasses):
 
         y = y + stride
     
+    #print('--- patches: %d ---' % X_test.shape[0])
+    
     y_pred = model.predict(X_test)
     y_pred = np.argmax(y_pred, axis = 1) 
             
@@ -102,9 +106,6 @@ def predictImage(img, patchSize,numClasses):
     probs = probs/patchId
     fin = np.argmax(probs) 
     
-    print(probs)
-    print(('fin: %d')%(fin))
-    
     return out, fin
 
 #-----------------------------------------------------------------------------  
@@ -132,14 +133,25 @@ for dirname, dirnames, files in os.walk(test_dir):
             print(os.path.join(dirname,subdir, file))
             
             img = imagePreprocessing(img)
-            #img = rotate(img,90)
             
+            start_time = time.time()
             pred, label = predictImage(img, patch_size, num_classes)
+            #print("--- %s seconds ---" % (time.time() - start_time))
+            #print("--- shape %d x %d pixels ---" % (pred.shape[0], pred.shape[1]))
+            
+            #print(pred.shape[0], pred.shape[1], (time.time() - start_time))
             
             path = os.path.join(pred_dir,subdir, file)
             io.imsave(path, pred)
             
             confMat[classId,label] +=1
+            
+            if classId != label:
+                print('!!!!!!!!!!!!!')
+                print(os.path.join(dirname,subdir, file))
+                print(label)
+                print('!!!!!!!!!!!!!')
+                
 
 names = list()
 for i in range(0, num_classes):

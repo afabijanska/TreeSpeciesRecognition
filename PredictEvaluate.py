@@ -7,17 +7,14 @@ Created on Sat Feb 16 14:23:50 2019
 
 # evaluate method with respect to sample test patches
 
-import h5py
 import pickle
+import random
 import numpy as np
 import configparser
 import matplotlib.pyplot as plt
 
 from helpers import load_hdf5, plot_confusion_matrix
-from keras.models import Model, model_from_json
-from skimage.transform import rotate
-	
-
+from keras.models import model_from_json
 
 #-----------------------------------------------------------------------------
 #read config file

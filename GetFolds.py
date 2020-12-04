@@ -6,12 +6,8 @@ Created on Sat Apr 25 12:31:01 2020
 """
 
 import os
-import h5py
-import random
 import pickle
-import numpy as np
 import configparser
-import matplotlib.pyplot as plt
 
 from skimage import io
 

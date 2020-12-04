@@ -7,7 +7,7 @@ train_labels = train_labels_fold_4.hdf
 test_patches = test_patches_fold_4.hdf
 test_labels = test_labels_fold_4.hdf
 best_weights = best_weights_fold_4.h5
-history_saved = history_folld4.p
+history_saved = history_folld4p
 conf_mat_patches_saved = conf_mat_patches_fold4.p
 conf_mat_images_saved = conf_mat_images_fold4.p
 
@@ -17,7 +17,7 @@ total_folds_no = 4
 [data attributes]
 num_classes = 14
 patch_size = 64
-patches_per_species = 1500
+patches_per_species = 2000
 
 [training settings]
 num_epochs = 500

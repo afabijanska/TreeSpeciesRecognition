@@ -6,7 +6,6 @@ Created on Fri Feb 15 18:24:56 2019
 """
 
 import os
-import h5py
 import random
 import pickle
 import configparser
@@ -14,7 +13,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 from skimage import io
-from keras.datasets import cifar10
 
 from helpers import  write_hdf5, mirrorImage, imagePreprocessing
 
