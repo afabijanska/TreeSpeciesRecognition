@@ -2,7 +2,11 @@
 
 ## Intro
 
-This crepository contains source code of a convolutional neural network for wood species recognition from wood core images. The source code and image dataset may be used for non-commercial research provided you acknowledge the source by citing the following paper:
+This crepository contains source code of a convolutional neural network for wood species recognition from wood core images. 
+
+## Terms of use
+
+The source code and image dataset may be used for non-commercial research provided you acknowledge the source by citing the following paper:
 
 <ul>
     <li> Fabijańska A., Danek M., Barniak J.: <i>Wood species automatic identification from wood core images with a residual convolutional neural network</i>, Computers and Electronics in Agriculture, accepted in 2020 </ul>
@@ -22,7 +26,7 @@ This crepository contains source code of a convolutional neural network for wood
 }</code></pre>
 
 
-## Dataset 
+# Dataset 
 
 To download dataset of wood core images please follow: http://an-fab.kis.p.lodz.pl/dendrodataset/DendroDataset.7z (425 MB). The dataset contains following tree species:
 
