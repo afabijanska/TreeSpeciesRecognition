@@ -1,4 +1,4 @@
-# Tree Species Recognition with a Residual Convolutional Neural Network
+# Tree Species Recognition <br> with a Residual Convolutional Neural Network
 
 ## Intro
 
