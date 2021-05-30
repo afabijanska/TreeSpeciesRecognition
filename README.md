@@ -15,14 +15,14 @@ The source code and image dataset may be used for non-commercial research provid
   author  = {Anna Fabija\'{n}ska and Ma\lgorzata Danek and Joanna Barniak}, <br>
   title   = {Wood species automatic identification from wood core images with a residual convolutional neural network},<br>
   journal = {Computers and Electronics in Agriculture},<br>
-  volume  = {},<br>
+  volume  = {181C},<br>
   number  = {},<br>
-  pages   = {},<br>
+  pages   = {105941},<br>
   year 	  = {2021},<br>
   note 	  = {},</br>
-  issn 	  = {},<br>
-  doi 	  = {}, <br>
-  url 	  = {}<br>
+  issn 	  = {0168-1699},<br>
+  doi 	  = {10.1016/j.compag.2020.105941}, <br>
+  url 	  = {https://www.sciencedirect.com/science/article/pii/S016816992033146X}<br>
 }</code></pre>
 
 
