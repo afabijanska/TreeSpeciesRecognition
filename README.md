@@ -2,7 +2,7 @@
 
 ## Intro
 
-This crepository contains source code of a convolutional neural network for wood species recognition from wood core images. 
+This repository contains source code of a convolutional neural network for wood species recognition from wood core images. 
 
 ## Terms of use
 
@@ -28,7 +28,7 @@ The source code and image dataset may be used for non-commercial research provid
 
 # Dataset 
 
-To download dataset of wood core images please follow: http://an-fab.kis.p.lodz.pl/dendrodataset/DendroDataset.7z (425 MB). The dataset contains following tree species:
+To download the wood core images dataset please follow: http://an-fab.kis.p.lodz.pl/dendrodataset/DendroDataset.7z (425 MB). The dataset contains following tree species:
 
     Brzoza / Betula sp. / Birch
     Buk zwyczajny / Fagus sylvatica L. / European beech
@@ -54,7 +54,7 @@ Python 3.6, Tensorflow, Keras, Anaconda3
 ## Repository content
 
 <ul>
-  <li> <b>configuration.txt</b><br> -- file to be edited; <br> -- contains data paths and train/test setings;   
+  <li> <b>configuration.txt</b><br> -- file to be edited; <br> -- contains data paths and train/test settings;   
   <li> <b>GetFolds.py</b><br> -- script for dividing dataset into a number of folds given in the configuration code; <br> -- to be run 1st; <br> -- expects that image dataset is stored in a directory with subdirectory for each species; <br> -- generates (number of folds) directories, each containing wood core images selected to a given fold; <br> -- copies subdirectory structure from the directory containing original dataset;  
   <li> <b>GenerateData2.py</b><br> -- script for preparing train data; <br> -- to be run 2nd; <br> -- samples a number of patches from train folds (test fold is given in the config file, remaining ones are considered train folds); <br> -- saves sampled train patches as hdf5 file (defined in config file); 
   <li> <b>TrainNetwork.py</b><br> -- script for training the model with the train patches and the corresponding labels; <br> -- to be run 3rd; <br> -- contains model definition;
